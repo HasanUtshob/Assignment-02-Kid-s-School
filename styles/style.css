@@ -83,6 +83,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 2.81rem;
 }
 .hero-content{
     max-width: 30rem;
@@ -124,4 +125,83 @@
     background-color: white;
     border: 1px solid orange;
     color:orange;
+}
+
+/* main section style part */
+
+/* Standard Curriculum section style */
+.Curriculum{
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Curriculum-title{
+    font-size: 2.15rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 3.75rem;
+}
+.Curriculum-items{
+    display: flex;
+    gap: 21px;
+    max-width: 67.5rem;
+    margin: 0 auto;
+    margin-bottom: 3.75rem;
+}
+.Curriculum-item{
+    max-width: 17.20rem;
+    text-align: center;
+    padding: 39px 30px;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05);
+    border-radius: 18.5px;
+}
+.item-img{
+    margin-bottom: 24px;
+}
+.item-content{
+    margin-bottom: 25px;
+}
+.item-content-title{
+    font-size: 18.39px;
+    font-weight: 700;
+    color: rgba(32, 32, 32, 1);
+    margin-bottom: 25px;
+}
+.item-content-description{
+    font-size: 11.31px;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+}
+.Read{
+    font-size: 11.31px;
+    font-weight: 500;
+    color: skyblue;
+    text-decoration: none;
+    text-align: center;
+}
+#item-first{
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+#item-second{
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+#item-third{
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    margin-bottom: 45px;
+}
+.left-arrow{
+    max-width: 45px;
+    max-height: 45px;
+    padding: 15px 25px 15px 25px;
+    background-color: orange;
+    color: white;
+    display: inline;
+    border-radius: 50%;
 }

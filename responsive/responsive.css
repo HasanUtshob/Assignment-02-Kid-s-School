@@ -16,5 +16,9 @@
         .hero-content{
             text-align: center;
         }
+        .Curriculum-items{
+            flex-direction: column;
+            margin: 0px 50px;
+        }
     
 }
