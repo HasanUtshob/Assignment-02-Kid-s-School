@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-normal{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.raleway-paragraph {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navber Style Section */
+.logo-management{
+    display: flex;
+    align-items: center;
+}
+.navber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0px;
+}
+.nav-menu{
+    display: flex;
+    gap: 24px;
+}
+.nav-menu > li{
+    list-style: none;
+    cursor: pointer;
+}
+.nav-menu > li > a {
+    text-decoration: none;
+}
+.Logo-name{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+#home{
+    color: orange;
+    font-weight: 700;
+}
+#about{
+    color: skyblue;
+    font-weight: 500;
+}
+#facilities{
+    color: rgba(5, 212, 223, 1);
+    font-weight: 500;
+}
+#admission{
+    color: rgba(93, 88, 239, 1);
+    font-weight: 500;
+}
+.btn-primary{
+    width: 9.23rem;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: white;
+    border: 1px solid orange;
+    color:orange;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width:568px) {
+    .Logo-name, .nav-menu, .btn-primary{
+        display: none;
+    }
+        .navber {
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 10px;
+        }
+        .hide{
+            display: inline;
+        }
+    
+}
