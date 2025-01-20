@@ -10,5 +10,11 @@
         .hide{
             display: inline;
         }
+        .hero-section{
+            flex-direction: column-reverse;
+        }
+        .hero-content{
+            text-align: center;
+        }
     
 }
