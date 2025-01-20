@@ -20,5 +20,8 @@
             flex-direction: column;
             margin: 0px 50px;
         }
+        .arrow{
+            display: none;
+        }
     
 }
