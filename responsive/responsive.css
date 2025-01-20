@@ -10,6 +10,9 @@
         .hide{
             display: inline;
         }
+        .horizontal-line{
+            display: block;
+        }
         .hero-section{
             flex-direction: column-reverse;
         }

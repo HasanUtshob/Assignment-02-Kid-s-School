@@ -75,7 +75,7 @@
     border: 1px solid orange;
     color:orange;
 }
-.hide{
+.hide,  .horizontal-line{
     display: none;
 }
 /* hero section style */
