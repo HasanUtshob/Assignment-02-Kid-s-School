@@ -26,5 +26,20 @@
         .arrow{
             display: none;
         }
+        .story-card{
+            display: none;
+        }
+        .side-by-side-card{
+            gap:14px;
+            margin: 0px 10px;
+        }
+        .story-card-items{
+            margin-bottom: 25px;
+        }
+        .footer-section{
+            flex-direction: column;
+            gap:32px;
+            padding: 50px;
+        }
     
 }

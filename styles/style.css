@@ -126,6 +126,18 @@
     border: 1px solid orange;
     color:orange;
 }
+.btn-third{
+    width: 130px;
+    background-color: rgba(60, 216, 232, 1);
+    border-radius: 47.93px;
+    border: none;
+    color: white;
+    padding:10px;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 
 /* main section style part */
 
@@ -204,4 +216,177 @@
     color: white;
     display: inline;
     border-radius: 50%;
+}
+
+/* Our-story section style */
+.our-story{
+    background: url("../assets/bg.png") 100px 100px repeat, linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
+}
+.story-card-items{
+    max-width: 54.37rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 14px;
+    margin-bottom: 60px;
+    background-image: ;
+}
+.side-by-side-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+.Story-title{
+    font-size: 34.5px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.story-card{
+    max-width: 405px;
+    background-color: white;
+}
+.story-card-img{
+    max-width: 405px;
+    
+}
+.story-card-img > img{
+    width: 100%;
+}
+.story-card-content{
+    max-width: 347.25px;
+    position: relative;
+    left: 25px;
+}
+.story-card-content-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 35px;
+}
+.story-card-description{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+    color: rgba(102, 102, 102, 1);
+    line-height: 21px;
+    margin-bottom: 21px;
+}
+#story-card-btn{
+   position: relative;
+   left: 25px;
+   top: -25px;
+}
+#btn-side-position{
+    position: relative;
+    left: 25px;
+    top: -25px;
+}
+.story-card-side{
+    max-width: 217.5px;
+    background-color: white;
+}
+.story-card-side-img{
+    max-width: 217.5px;
+}
+.story-card-side-img > img{
+    width: 100%;
+}
+.story-card-side > h1{
+    max-width: 160px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 21px;
+}
+.color-1{
+    padding: 16px;
+}
+.color-2{
+    background-color: rgba(149, 178, 38, 1);
+}
+.color-3{
+    background-color: rgba(93, 88, 240, 1);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+/* Footer section style */
+.footer{
+    background-color: rgba(1, 172, 253, 1);
+}
+.footer-section{
+    max-width: 802.5px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 140px;
+    margin: 0 auto;
+    padding: 100px;
+}
+.footer-logo{
+    max-width: 224px;
+    display: flex;
+    align-items: center;
+    font-size: 31.60px;
+    color: white;
+    font-weight: 700; 
+    margin-bottom: 25px;  
+}
+.footer-1 > p{
+    width: 299px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+.footer-2 > ul > li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-2 > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.footer-2 > h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.footer-3 > ul{
+    display: flex;
+    gap: 7.5px;
+}
+
+.footer-3 > ul > li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-3 > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.footer-3 > h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.marq {
+    text-align: center;
+}
+
+.shutshob {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(165, 4, 4);
+    padding-bottom: 10px;
 }
