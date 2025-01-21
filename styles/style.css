@@ -216,6 +216,13 @@
     color: white;
     display: inline;
     border-radius: 50%;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.left-arrow:hover{
+    border: 1px solid orange;
+    color: orange;
+    background-color: white;
 }
 
 /* Our-story section style */
@@ -340,6 +347,7 @@
     font-size: 15px;
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
+    text-align: justify;
 }
 .footer-2 > ul > li{
     list-style: none;
